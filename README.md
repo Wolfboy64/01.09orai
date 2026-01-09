@@ -1,24 +1,12 @@
-# React + Vite
+# react routing bootstrappel
 
-egyszerű navigációs oldal
-# React routing
+hátom lap között (`Home` `Contact` `About`) kell váltani
 
-## Routes
-A `<Routes>` elemek között az egyes útvonalakat kell megadni
+## Létrehozása
 
-## Route
+````javascript
 
-Egy adott megjelenítendő ***lapot*** ezzel tudunk megadni a `to` és `element` tulajdonságok segítségével.
-
-## NavLink 
-itt adhatjuk meg a felhaszbnálónak felajánlott lapot
-
-## telepítés
-jsx
-npm i react-router-dom
-
-## Browser router
-
-A `<BrowserRouter>` nyitó és záró tagja között lehet használni a további elemeket.
-
-
+npm create vite@latest myproject
+cd myproject
+npm i react-router-dom bootstrap react-bootstrap
+````
